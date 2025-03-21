@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'Hello from BridgeLabz..';
   imgUrl="../assets/BL_Logo.jpg";
   url="https://www.bridgelabz.com";
+  userName :string="";
 
 onClick($event: Event) {
   console.log("open breidgelabz site from logo",$event);
